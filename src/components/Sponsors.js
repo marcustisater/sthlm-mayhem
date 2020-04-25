@@ -5,50 +5,47 @@ import { SponsorWrapper, SponsorTitle } from './Sponsors.styles';
 import NoccoLogo from '../img/nocco.png';
 
 const Sponsors = () => (
-
-    render (
-        <SponsorWrapper>
+    <SponsorWrapper>
     
-        <div className="sponsor-slider">
+    <div className="sponsor-slider">
 
-            <ul class="logogrid">
-                <li class="logogrid__item">
-                    <img src={NoccoLogo} class="logogrid__img" alt="Nocco" />
-                </li>
+        <ul class="logogrid">
+            <li class="logogrid__item">
+                <img src={NoccoLogo} class="logogrid__img" alt="Nocco" />
+            </li>
 
-                <li class="logogrid__item">
-                    <img src={NoccoLogo} class="logogrid__img" alt="Nocco" />
-                </li>
+            <li class="logogrid__item">
+                <img src={NoccoLogo} class="logogrid__img" alt="Nocco" />
+            </li>
 
-                <li class="logogrid__item">
-                    <img src={NoccoLogo} class="logogrid__img" alt="Nocco" />
-                </li>
+            <li class="logogrid__item">
+                <img src={NoccoLogo} class="logogrid__img" alt="Nocco" />
+            </li>
 
-                <li class="logogrid__item">
-                    <img src={NoccoLogo} class="logogrid__img" alt="Nocco" />
-                </li>
+            <li class="logogrid__item">
+                <img src={NoccoLogo} class="logogrid__img" alt="Nocco" />
+            </li>
 
-                <li class="logogrid__item">
-                    <img src={NoccoLogo} class="logogrid__img" alt="Nocco" />
-                </li>
+            <li class="logogrid__item">
+                <img src={NoccoLogo} class="logogrid__img" alt="Nocco" />
+            </li>
 
-                <li class="logogrid__item">
-                    <img src={NoccoLogo} class="logogrid__img" alt="Nocco" />
-                </li>
+            <li class="logogrid__item">
+                <img src={NoccoLogo} class="logogrid__img" alt="Nocco" />
+            </li>
 
-                <li class="logogrid__item">
-                    <img src={NoccoLogo} class="logogrid__img" alt="Nocco" />
-                </li>
+            <li class="logogrid__item">
+                <img src={NoccoLogo} class="logogrid__img" alt="Nocco" />
+            </li>
 
-                <li class="logogrid__item">
-                    <img src={NoccoLogo} class="logogrid__img" alt="Nocco" />
-                </li>
-            </ul>
+            <li class="logogrid__item">
+                <img src={NoccoLogo} class="logogrid__img" alt="Nocco" />
+            </li>
+        </ul>
 
-            </div>
+    </div>
 
-        </SponsorWrapper>
-    )
+    </SponsorWrapper>
 ) 
 
 export default Sponsors;
