@@ -3,7 +3,6 @@ import React from 'react'
 import Layout from '../../components/Layout'
 import TavlingarRoll from '../../components/TavlingarRoll'
 
-import '../../components/Sponsors';
 import Sponsors from '../../components/Sponsors';
 
 import '../../components/test.css';
