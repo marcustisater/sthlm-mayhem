@@ -12,7 +12,7 @@ mainpitch:
     ex, non blandit ex augue at turpis.
   primarybutton: Aktuella tävlingar
   primarybuttonlink: 'http://google.se'
-  title: Stockholm Mayhem
+  title: Stockholm Mayhem 2222
   title2: Tävlingar för alla klaser
 faq:
   description: Lorum Ipsum 343242342343243242342
