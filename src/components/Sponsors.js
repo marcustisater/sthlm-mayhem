@@ -5,7 +5,9 @@ import { SponsorWrapper, SponsorTitle } from './Sponsors.styles';
 import NoccoLogo from '../img/nocco.png';
 
 const Sponsors = () => (
-    <SponsorWrapper>
+
+    render (
+        <SponsorWrapper>
     
         <div className="sponsor-slider">
 
@@ -43,9 +45,10 @@ const Sponsors = () => (
                 </li>
             </ul>
 
-        </div>
+            </div>
 
-    </SponsorWrapper>
+        </SponsorWrapper>
+    )
 ) 
 
 export default Sponsors;
