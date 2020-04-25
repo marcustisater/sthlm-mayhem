@@ -47,7 +47,7 @@ collections:
           - {label: faq, name: faq, widget: object, 
             fields: [
               {label: Title, name: title, widget: string},
-              {label: Beskrivning, name: description, widget: string}
+              {label: Beskrivning, name: description, widget: string},
               {label: Fråga 1 Rubrik, name: faq1title, widget: string}, 
               {label: Fråga 1 Beskrivning, name: faq1description, widget: text}, 
               {label: Fråga 1 Länk, name: faq1link, widget: string},
