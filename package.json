@@ -27,8 +27,13 @@
     "node-sass": "^4.11.0",
     "prop-types": "^15.6.0",
     "react": "^16.8.4",
+    "react-animated-css": "^1.2.1",
+    "react-animated-css-onscroll": "^1.2.1",
     "react-dom": "^16.8.4",
     "react-helmet": "^5.2.0",
+    "react-parallax": "^3.0.3",
+    "react-spring": "^8.0.27",
+    "styled-components": "^5.0.1",
     "uuid": "^3.2.1"
   },
   "keywords": [

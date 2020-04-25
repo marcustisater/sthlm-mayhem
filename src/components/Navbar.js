@@ -1,7 +1,10 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import github from '../img/github-icon.svg'
-import logo from '../img/logo.svg'
+import logo from '../img/logo.png'
+
+import { Navigation, NavigationLink } from './Navbar.styles';
+
+import './menu.css';
 
 const Navbar = class extends React.Component {
   constructor(props) {
@@ -10,7 +13,7 @@ const Navbar = class extends React.Component {
       active: false,
       navBarActiveClass: '',
     }
-  }
+  } 
 
   toggleHamburger = () => {
     // toggle the active boolean in the state
@@ -23,10 +26,14 @@ const Navbar = class extends React.Component {
         // set the class in state for the navbar accordingly
         this.state.active
           ? this.setState({
-              navBarActiveClass: 'is-active',
+              navBarActiveClass: 'active',
+              overlayBarActiveClass: 'open',
+              animateActiveClass: 'animate',
             })
           : this.setState({
               navBarActiveClass: '',
+              overlayBarActiveClass: '',
+              animateActiveClass: ''
             })
       }
     )
@@ -34,63 +41,53 @@ const Navbar = class extends React.Component {
 
   render() {
     return (
-      <nav
+      <Navigation
         className="navbar is-transparent"
         role="navigation"
         aria-label="main-navigation"
       >
         <div className="container">
           <div className="navbar-brand">
-            <Link to="/" className="navbar-item" title="Logo">
-              <img src={logo} alt="Kaldi" style={{ width: '88px' }} />
-            </Link>
             {/* Hamburger menu */}
-            <div
-              className={`navbar-burger burger ${this.state.navBarActiveClass}`}
-              data-target="navMenu"
-              onClick={() => this.toggleHamburger()}
-            >
-              <span />
-              <span />
-              <span />
+            <div className="hamburgerWrapper">
+              <div
+                className={`button_container ${this.state.navBarActiveClass}`}
+                data-target="navMenu"
+                onClick={() => this.toggleHamburger()}
+              > 
+                <span>Meny</span>
+                <div class={`hamburger-menu ${this.state.animateActiveClass}`}></div>
+              </div>
             </div>
           </div>
           <div
-            id="navMenu"
-            className={`navbar-menu ${this.state.navBarActiveClass}`}
+            id="overlay"
+            className={`overlay navbar-menu ${this.state.overlayBarActiveClass}`}
           >
-            <div className="navbar-start has-text-centered">
-              <Link className="navbar-item" to="/about">
-                About
-              </Link>
-              <Link className="navbar-item" to="/products">
-                Products
-              </Link>
-              <Link className="navbar-item" to="/blog">
-                Blog
-              </Link>
-              <Link className="navbar-item" to="/contact">
-                Contact
-              </Link>
-              <Link className="navbar-item" to="/contact/examples">
-                Form Examples
-              </Link>
+            <div className="overlay-menu has-text-centered">
+              <ul>
+                <li>
+                  <NavigationLink to="/">
+                    Hem
+                  </NavigationLink>
+                </li>
+                <li>
+                  <NavigationLink to="/about">
+                    Vilka är vi 
+                  </NavigationLink>
+                </li>
+                <li>
+                  <NavigationLink to="/blog">
+                    Aktuella tävlingar
+                  </NavigationLink>
+                </li>
+              </ul>
             </div>
             <div className="navbar-end has-text-centered">
-              <a
-                className="navbar-item"
-                href="https://github.com/netlify-templates/gatsby-starter-netlify-cms"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <span className="icon">
-                  <img src={github} alt="Github" />
-                </span>
-              </a>
             </div>
           </div>
         </div>
-      </nav>
+      </Navigation>
     )
   }
 }
