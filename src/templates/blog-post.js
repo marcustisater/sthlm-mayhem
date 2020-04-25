@@ -9,7 +9,7 @@ import { useTrail, animated } from 'react-spring'
 import '../components/test.css';
 import { Parallax } from 'react-parallax';
 import { Wrapper } from './tavling-styles-page';
-import Sponsors from '../components/sponsors';
+import Sponsors from '../components/Sponsors';
 
 export const BlogPostTemplate = ({
   content,
