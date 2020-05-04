@@ -41,7 +41,8 @@ collections:
               {label: Under rubrik, name: title2, widget: string}, 
               {label: Beskrivning, name: description, widget: text},
               {label: Knapp, name: primarybutton, widget: string},
-              {label: Knapp länk, name: primarybuttonlink, widget: string}
+              {label: Knapp länk, name: primarybuttonlink, widget: string},
+              {label: Bild, name: image, widget: image}
             ]}
 
           - {label: faq, name: faq, widget: object, 

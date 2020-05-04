@@ -19,7 +19,7 @@ class TavlingarRoll extends React.Component {
           posts.map(({ node: post }) => (
             <Item key={post.id}>
               <ItemArticle
-                className={`blog-list-item tile is-child box notification ${
+                className={`blog-list-item tile is-child box ${
                   post.frontmatter.featuredpost ? 'is-featured' : ''
                 }`}
               >
@@ -50,7 +50,7 @@ class TavlingarRoll extends React.Component {
                     {post.excerpt}
                     <br />
                     <br />
-                    <Link className="button" to={post.fields.slug}>
+                    <Link className="inline-flex text-white bg-red-700 border-0 py-2 px-6 focus:outline-none hover:text-white hover:bg-red-600 rounded text-lg" to={post.fields.slug}>
                       Läs vidare om tävlingen
                     </Link>  
                   </p>

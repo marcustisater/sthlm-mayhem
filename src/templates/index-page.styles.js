@@ -46,13 +46,13 @@ export const VideoWrapper = styled.div`
     overflow: hidden;
 `;
 
-export const Video = styled.video`
+export const Video = styled.div`
     min-width: 100%;
     min-height: 100%;
     width: auto;
     height: auto;
     position: absolute;
-    top: 50%;
+    top: 0;
     left: 50%;
     transform: translate(-50%,-50%);
 `;

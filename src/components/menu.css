@@ -109,10 +109,9 @@ h1,h2,h3,h4,h5 {
     color: #fff;
     text-decoration: none;
     overflow: hidden;
-    font-size: 2.6rem;
+    font-size: 3rem;
     text-transform: uppercase;
     font-weight: bold;
-    letter-spacing: -0.5px;
 }
 
 .overlay ul li a:hover:after,
