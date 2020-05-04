@@ -2,18 +2,20 @@
 templateKey: volunteer-page
 title: Vill du hjälpa till på nästa Stockholm Mayhem tävling?
 ---
-### Shade-grown coffee
+## Judges
 
-Coffee is a small tree or shrub that grows in the forest understory in its wild form, and traditionally was grown commercially under other trees that provided shade. The forest-like structure of shade coffee farms provides habitat for a great number of migratory and resident species.
+För att genomföra tävling av denna klass och storlek så behöver vi din hjälp.
+Om Du dömt tidigare eller om du känner att du har bra koll på standards och rörelser, så vill vi gärna ha med dig på denna tävling.
 
-werewrewr
+## Vad får du som domare?
 
-ewrew
+* Judges t-shirt
+* Lunch och fika under tävlingen.
+* Boende - del i flerbäddsrum, delad toalett. Gäller primärt de som ej bor i Stockholm.
 
-rwe
+## Krav
 
-rew
-
-r
-
-wer
+* Du skall vara tillgänglig en timme före och en timme efter tiden som är angivet för atleter.
+* Att du är bekant med de rörelser och de generella regler som råder inom sporten samt att du gärna själv är utövare.
+* Vi ser gärna att du har dömt tidigare - dock ej krav.
+* Godkänd domarkurs på oc.crossfit.com - dock ej krav.
