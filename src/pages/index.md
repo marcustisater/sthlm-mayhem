@@ -1,6 +1,8 @@
 ---
 templateKey: index-page
 mainpitch:
+  title: Test
+  title2: test 
   description: >
     Donec nunc justo, maximus vel sapien eget, porttitor elementum lacus. Mauris
     quis urna ut enim lobortis scelerisque id nec ex. Vestibulum tristique
@@ -17,7 +19,7 @@ mainpitch:
 faq:
   description: Lorum Ipsum 343242342343243242342
   faq1description: En text
-  faq1link: 'https://google.se'
+  faq1link: 'https://google.se' 
   faq1title: En rubrik 1
   faq2description: En text
   faq2link: 'https://google.se'
