@@ -1,8 +1,8 @@
 ---
 templateKey: index-page
 mainpitch:
-  title: Test
-  title2: test 
+  title: Stockholm Mayhem
+  title2: Tävlingar för alla klasser
   description: >
     Donec nunc justo, maximus vel sapien eget, porttitor elementum lacus. Mauris
     quis urna ut enim lobortis scelerisque id nec ex. Vestibulum tristique
@@ -12,12 +12,12 @@ mainpitch:
     felis. Integer suscipit erat eu urna blandit, iaculis sodales magna
     ultrices. Aliquam iaculis, lectus ac tempus iaculis, metus justo eleifend
     ex, non blandit ex augue at turpis.
-  primarybutton: Aktuella tävlingar
-  primarybuttonlink: http://google.se
+  primarybutton: Läs mer om oss
+  primarybuttonlink: 'https://sthlm-mayhem-dev.netlify.app/about'
   image: /img/mix.jpg
 
 faq:
-  description: Lorum Ipsum 343242342343243242342
+  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque rhoncus nunc sed purus interdum faucibus.
   faq1description: En text
   faq1link: 'https://google.se' 
   faq1title: En rubrik 1
