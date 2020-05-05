@@ -21,7 +21,7 @@ faq:
   faq2description: En text
   faq2link: 'https://google.se'
   faq2title: En rubrik 2
-  faq3description: text
+  faq3description: text igen
   faq3link: 'https://google.se'
   faq3title: En till rubrik 3
   title: Vanliga frågor och svar
