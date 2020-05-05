@@ -79,6 +79,6 @@ collections:
         label: "Kravprofil"
         name: "kravprofil"
         fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "volunteer-page"}
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "kravprofil-page"}
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
