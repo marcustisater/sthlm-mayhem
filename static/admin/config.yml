@@ -74,3 +74,11 @@ collections:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "volunteer-page"}
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
+
+      - file: "src/pages/krav/index.md"
+        label: "Kravprofil"
+        name: "kravprofil"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "volunteer-page"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
