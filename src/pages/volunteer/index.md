@@ -4,8 +4,7 @@ title: Vill du hjälpa till på nästa Stockholm Mayhem tävling?
 ---
 ## Judges
 
-För att genomföra tävling av denna klass och storlek så behöver vi din hjälp.
-Om Du dömt tidigare eller om du känner att du har bra koll på standards och rörelser, så vill vi gärna ha med dig på denna tävling.
+För att genomföra tävling av denna klass och storlek så behöver vi din hjälp. Om Du dömt tidigare eller om du känner att du har bra koll på standards och rörelser, så vill vi gärna ha med dig på denna tävling.
 
 ## Vad får du som domare?
 
