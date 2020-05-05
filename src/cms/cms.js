@@ -3,6 +3,7 @@ import uploadcare from 'netlify-cms-media-library-uploadcare'
 import cloudinary from 'netlify-cms-media-library-cloudinary'
 
 import AboutPagePreview from './preview-templates/AboutPagePreview'
+import KravProfilPreview from './preview-templates/KravProfilPagePreview'
 import VolunteerPagePreview from './preview-templates/VolunteerPagePreview'
 import BlogPostPreview from './preview-templates/BlogPostPreview'
 import IndexPagePreview from './preview-templates/IndexPagePreview'
@@ -12,6 +13,7 @@ CMS.registerMediaLibrary(cloudinary)
 
 CMS.registerPreviewTemplate('index', IndexPagePreview)
 CMS.registerPreviewTemplate('about', AboutPagePreview)
+CMS.registerPreviewTemplate('kravprofil', KravProfilPreview)
 CMS.registerPreviewTemplate('volunteer', VolunteerPagePreview)
 CMS.registerPreviewTemplate('competition', CompetitionPagePreview)
 CMS.registerPreviewTemplate('blog', BlogPostPreview)
