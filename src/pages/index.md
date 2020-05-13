@@ -9,7 +9,7 @@ mainpitch:
   image: /img/86195834_622634358573235_1220509102841528320_o.jpg
   primarybutton: Läs mer om oss
   primarybuttonlink: 'https://sthlm-mayhem-dev.netlify.app/about'
-  title: Stockholm Mayhem
+  title: Tävlingar för alla klasser
   title2: Tävlingar för alla klasser
 faq:
   description: >-
