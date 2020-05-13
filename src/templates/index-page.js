@@ -72,7 +72,7 @@ export const IndexPageTemplate = ({
     </div>
 
     <section class="text-gray-700 body-font mb-20">
-    <div class="container px-5 py-24 mx-auto">
+    <div class="container px-5 py-24 pt-20 mx-auto">
       <div className="text-center mb-20">
         <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900 mb-5">
           {faq.title}

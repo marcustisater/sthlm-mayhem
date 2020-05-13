@@ -83,11 +83,6 @@ const Navbar = class extends React.Component {
                   </NavigationLink>
                 </li>
                 <li>
-                  <NavigationLink to="/krav">
-                    Kravprofil
-                  </NavigationLink>
-                </li>
-                <li>
                   <NavigationLink to="/blog">
                     Aktuella tävlingar
                   </NavigationLink>

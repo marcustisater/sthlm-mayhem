@@ -21,7 +21,7 @@ export default class BlogIndexPage extends React.Component {
               <p class="mb-8 leading-relaxed">Meggings kinfolk echo park stumptown DIY, kale chips beard jianbing tousled. Chambray dreamcatcher trust fund, kitsch vice godard disrupt ramps hexagon mustache umami snackwave tilde chillwave ugh. Pour-over meditation PBR&amp;B pickled ennui celiac mlkshk freegan photo booth af fingerstache pitchfork.</p>
             </div>
 
-            <div className="content">
+            <div className="content container--small">
               <TavlingarRoll />
             </div>
           </div>
