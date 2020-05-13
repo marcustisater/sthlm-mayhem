@@ -23,13 +23,15 @@ export const Hero = styled.div`
         left: 0;
         right: 0;
         bottom: 0;
-        background-color: rgba(0,0,0,0.3);
+        background-color: rgba(0,0,0,0.2);
     }
 `;
 
 export const HeroImage = styled.div`
     background-size: cover;
     position: relative;
+    background-image: url('img/front-page.jpg'); 
+    background-position: center;
 
     @media (min-width: 40rem) {
         height: 100vh;

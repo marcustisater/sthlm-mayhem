@@ -23,8 +23,8 @@ export const TavlingarItemContainerImage = styled.div`
 export const TavlingarTitle = styled(Link)`
    color: ${color.black};
    margin-bottom: 1.5rem;
-   font-size: 2rem;
-   line-height: 2.15rem;
+   font-size: 1.4rem;
+   line-height: 1.65rem;
    text-decoration: none !important;
    font-weight: bold;
    display: block;

@@ -9,8 +9,8 @@ export const ItemArticle = styled.div`
 `;
 
 export const ImageColumn = styled.div`
-    flex-basis: 35%;
-    margin-right: 5%;
+    flex-basis: 45%;
+    margin-right: 2%;
 `;
 
 export const TextColumn = styled.div`
@@ -19,5 +19,7 @@ export const TextColumn = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center; 
+    justify-content: center;
+    
+    padding: 50px 25px;
 `;

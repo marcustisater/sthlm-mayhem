@@ -74,11 +74,23 @@ body {
 
 .container--small {
     flex-grow: 1;
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    width: auto;
+    max-width: 860px;
+    margin-top: 120px !important;
+}
+
+.container--tavlingar {
+    flex-grow: 1;
+    margin-left: auto;
+    margin-right: auto;
     position: relative;
     width: auto;
     max-width: 860px;
 }
+
 
 .logogrid {
     display: grid;
@@ -284,4 +296,27 @@ body {
 .datepick {
     margin-bottom: 10px;
     font-weight: bold;
+}
+
+.bg-gradient {
+    background: #556270;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FF6B6B, #556270);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FF6B6B, #556270); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-image: url('/img/hero2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}    
+
+.bg-gradient::after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.4);
 }

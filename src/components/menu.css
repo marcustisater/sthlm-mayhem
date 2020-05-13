@@ -253,3 +253,21 @@ h1,h2,h3,h4,h5 {
       margin-bottom: 75px;
       margin-top: 75px;
   }
+
+
+.full-width-image-container--front {
+  width: 100vw;
+  height: 500px;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin: 2em -50vw;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+}
+
+.emoji-size {
+    font-size: 5rem;
+}
