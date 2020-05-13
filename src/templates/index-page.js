@@ -53,7 +53,7 @@ export const IndexPageTemplate = ({
             <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">{mainpitch.title}</h1>
             <p class="mb-8 leading-relaxed">{mainpitch.description}</p>
             <div class="flex justify-center">
-              <a href="/about" class="flex text-white bg-red-500 border-0 py-2 px-6 focus:outline-none hover:bg-red-600 rounded text-lg">Läs mer om oss</button>
+              <a href="/about" class="flex text-white bg-red-500 border-0 py-2 px-6 focus:outline-none hover:bg-red-600 rounded text-lg">Läs mer om oss</a>
             </div>
           </div>
         </div>
