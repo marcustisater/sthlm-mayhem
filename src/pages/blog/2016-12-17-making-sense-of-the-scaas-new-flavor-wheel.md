@@ -3,8 +3,10 @@ templateKey: blog-post
 title: Stockholm Mayhem Mix Teams of 2 Edition
 date: 2020-06-06T00:00:00.000Z
 description: >-
-  Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere
-  cubilia curae; Nulla faucibus turpis vitae odio orna
+  Vi vill passa på att ta tillfället i akt och fira nationaldagen tillsammans
+  med er på bästa möjliga sätt. Så vad kan passa bättre än att köra en CF
+  tävling hos oss med massa roliga och utmanade events denna dag! Hoppas att i
+  ses på juni 2020.
 featuredpost: false
 featuredimage: /img/mix.jpg
 tags:
