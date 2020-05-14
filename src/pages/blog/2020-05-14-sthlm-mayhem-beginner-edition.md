@@ -7,7 +7,7 @@ description: >-
   Kanske har du tävlat ett par ggr tidigare men ännu inte nått Scaled nivå.
   Årets upplaga var mycket uppskattad och sålde slut fort! Vi lovar er roliga
   och utmanade events samt tuffa utmaningar! Vi ses i oktober.
-featuredpost: true
+featuredpost: false
 featuredimage: /img/93133596_591856344754663_163504324012408832_o.jpg
 tags:
   - tag
