@@ -1,10 +1,14 @@
 ---
 templateKey: blog-post
 title: Stockholm Mayhem Team of 4 Edition Intermediate
-date: 2020-08-28T00:00:00.000Z
+date: 2020-08-29T00:00:00.000Z
 description: >-
-  Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere
-  cubilia curae; Nulla faucibus turpis vitae odio orna.
+  Fjärde tävling ut 2020 riktar sig mot Team of 4 intermediate samt Scaled
+  klass. Förra upplagan av Team of 4 var mycket uppskattad och lyckad! Vi lovar
+  er riktigt roliga och utmanade events både utomhus och inomhus samt nya tuffa
+  utmaningar! Hoppas att vi ses igen augusti 2020. Denna tävling kommer
+  antagligen sälja slut väldigt fort. Så in och säkra era platser om ni vill
+  vara med på 2020 upplaga.
 featuredpost: false
 featuredimage: /img/teams.jpg
 tags:
