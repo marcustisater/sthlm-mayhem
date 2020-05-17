@@ -128,13 +128,15 @@ h1,h2,h3,h4,h5 {
     font-size: 2rem;
     font-weight: bold;
     letter-spacing: -1px;
+
 }
 
 .overlay ul li a:hover:after,
 .overlay ul li a:focus:after,
 .overlay ul li a:active:after {
     width: 100%;
-}
+} 
+
 
 .overlay ul li a:after {
     content: '';
