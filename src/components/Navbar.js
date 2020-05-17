@@ -87,6 +87,16 @@ const Navbar = class extends React.Component {
                     Aktuella tävlingar
                   </NavigationLink>
                 </li>
+                <li>
+                  <NavigationLink>
+                    Bildgalleri 
+                  </NavigationLink>
+                </li>
+                <li>
+                  <NavigationLink>
+                    Kontakta oss
+                  </NavigationLink>
+                </li>
               </ul>
             </div>
             <div className="navbar-end has-text-centered">
