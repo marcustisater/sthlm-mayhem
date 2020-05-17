@@ -63,6 +63,8 @@ export const BlogPostTemplate = ({
               <h1 class="sm:text-3xl text-2xl font-medium text-center title-font text-gray-900 mb-4">Kravprofil</h1>
               <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">För den här tävlingen bör du behärska följande övningar och vikter</p>
             </div>
+
+            <h2 class="sm:text-3xl text-2xl font-medium text-center title-font text-gray-900 mb-4">Herr</h2>
             <div class="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
               <div class="p-2 sm:w-1/2 w-full">
                 <div class="rounded bg-gray-200 flex p-4 h-full items-center">
@@ -101,6 +103,47 @@ export const BlogPostTemplate = ({
                 </div>
               </div>
             </div>
+
+            <h2 class="sm:text-3xl text-2xl font-medium text-center title-font text-gray-900 mb-4 mt-10">Dam</h2>
+            <div class="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
+              <div class="p-2 sm:w-1/2 w-full">
+                <div class="rounded bg-gray-200 flex p-4 h-full items-center">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-red-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+                    <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+                    <path d="M22 4L12 14.01l-3-3"></path>
+                  </svg>
+                  <span class="title-font font-medium">1RM 80kg/60kg clean and jerk</span>
+                </div>
+              </div>
+              <div class="p-2 sm:w-1/2 w-full">
+                <div class="rounded  bg-gray-200 flex p-4 h-full items-center">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-red-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+                    <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+                    <path d="M22 4L12 14.01l-3-3"></path>
+                  </svg>
+                  <span class="title-font font-medium">Double unders</span>
+                </div>
+              </div>
+              <div class="p-2 sm:w-1/2 w-full">
+                <div class="rounded bg-gray-200 flex p-4 h-full items-center">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-red-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+                    <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+                    <path d="M22 4L12 14.01l-3-3"></path>
+                  </svg>
+                  <span class="title-font font-medium">Muscle up</span>
+                </div>
+              </div>
+              <div class="p-2 sm:w-1/2 w-full">
+                <div class="rounded bg-gray-200 flex p-4 h-full items-center">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-red-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+                    <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+                    <path d="M22 4L12 14.01l-3-3"></path>
+                  </svg>
+                  <span class="title-font font-medium">1RM 50/35kg Snatch</span>
+                </div>
+              </div>
+            </div>
+
           </div>
         </section>
       </section>
@@ -108,15 +151,18 @@ export const BlogPostTemplate = ({
 
       <section class="text-gray-700 body-font mb-40">
       <div class="container px-5 pt-20 mx-auto">
-        <div class="text-center">
-          <span class="emoji-size">✍️</span>
-          <h1 class="sm:text-3xl text-2xl font-medium text-center title-font text-gray-900">Information</h1>
+        <div>
           <Wrapper> 
-            <div className="columns content">
+            <div className="columns">
               <div className="column is-10 is-offset-1">
-                <p>{title}</p>
-                <p>{description}</p>
-                <PostContent content={content} />
+                <div class="mb-10">
+                  <h1 class="sm:text-3xl text-2xl font-medium title-font text-gray-900 mt-0">Information angående tävlingen</h1>
+                </div>
+                <div class="content">
+                  <p>{title}</p>
+                  <p>{description}</p>
+                  <PostContent content={content} />
+                </div>
               </div>
             </div>
           </Wrapper>

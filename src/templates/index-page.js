@@ -27,20 +27,21 @@ export const IndexPageTemplate = ({
 }) => (
   <div>
       <Parallax
-      bgImage={'/img/front-page.jpg'}
+      bgImage={'/img/home-front.jpg'}
       bgImageAlt="the cat"
       strength={250}
       className="full-width-image-container--front margin-top-0 full-width-image--left"
-    ></Parallax>
-
-
+    >
+      <h1>Stockholm Mayhem</h1>
+    </Parallax>
+    
 
     <section className="section section--gradient">
   
 
       <section class="text-gray-700 body-font">
         <div class="container mx-auto flex px-5 py-24 items-center justify-center flex-col">          
-          <div className="g:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center rounded">
+          <div className="g:w-2/6 md:w-3/6 w-6/6 mb-10 object-cover object-center rounded">
               <PreviewCompatibleImage
               imageInfo={{
                 image: mainpitch.image,
@@ -53,7 +54,7 @@ export const IndexPageTemplate = ({
             <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">{mainpitch.title}</h1>
             <p class="mb-8 leading-relaxed">{mainpitch.description}</p>
             <div class="flex justify-center">
-              <a href="/about" class="flex text-white bg-red-500 border-0 py-2 px-6 focus:outline-none hover:bg-red-600 rounded text-lg">Läs mer om oss</a>
+              <a href="/about" class="flex text-white bg-red-600 border-0 py-2 px-6 focus:outline-none hover:text-white hover:bg-red-500 rounded text-lg">Läs mer om oss</a>
             </div>
           </div>
         </div>
