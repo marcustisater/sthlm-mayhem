@@ -89,7 +89,7 @@ const Navbar = class extends React.Component {
                 </li>
                 <li>
                   <NavigationLink>
-                    Bildgalleri 
+                    Bildgalleri  
                   </NavigationLink>
                 </li>
                 <li>
