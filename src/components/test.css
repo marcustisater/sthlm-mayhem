@@ -347,3 +347,12 @@ h5 {
     padding: 12px 25px;
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
+
+.logo {
+    position: fixed;
+    left: 15px;
+    top: 5px;
+    color: red;
+    width: 150px;
+    z-index: 999;
+}
