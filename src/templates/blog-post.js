@@ -38,25 +38,43 @@ export const BlogPostTemplate = ({
     <Layout>
       <section>
         {helmet || ''}
-        
-
-          <section class="text-gray-700 body-font bg-gradient">
-            <div class="container px-5 py-24 mx-auto flex flex-wrap items-center content-center z-10">
-              <div class="lg:w-3/5 md:w-1/2 md:pr-16 lg:pr-0 pr-0 flex">
-                <div className="ml-10 content-center flex justify-center flex-col"> 
-                  <h1 class="title-font font-medium text-3xl text-white">{title}</h1>
-                  <p class="leading-relaxed mt-4 text-white">En kort beskrivning av tävlingen.</p>
-                </div> 
-              </div>
-              <div class="lg:w-2/6 md:w-1/2 bg-gray-200 rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0">
-                <h2 class="text-gray-900 text-lg font-medium title-font mb-5">Anmälan</h2>
-                <button class="text-white bg-red-500 border-0 py-2 px-8 focus:outline-none hover:bg-red-600 rounded text-lg">Registrera dig här</button>
-                <p class="text-xs text-gray-700 mt-3">Registeringen är via https://activeperfection.com/</p>
-              </div>
-            </div> 
-          </section>
 
           <section class="text-gray-700 body-font mb-10">
+            <div class="container px-5 pt-20 mx-auto">
+
+              <div class="float-right">
+                 <img class="float-right mb-5" width="300" src="/img/mix.jpg" />
+                 <p>Datum: XXXXX </p>
+                 <p>Pris: XXXX</p>
+                 <p>Antal platser: 48</p>
+                 <button class="mt-6 flex text-white bg-red-600 border-0 py-2 px-6 focus:outline-none hover:text-white hover:bg-red-500 rounded text-lg">Registrera</button>
+              </div>
+              
+              <div>
+                <Wrapper> 
+                  <div className="columns">
+                    <div className="column is-10 is-offset-1">
+                      <div class="lg:pr-0 pr-0 mb-20">
+                        <h1 class="title-font font-bold text-black text-4xl mt-0">{title}</h1>
+                        <p class="leading-relaxed mt-4">En kort beskrivning av tävlingen.</p>
+                      </div>
+                      
+                      <div class="mb-10">
+                        <h1 class="sm:text-3xl text-2xl font-medium title-font text-gray-900 mt-0">Information angående tävlingen</h1>
+                      </div>
+                      <div class="content">
+                        <p>{title}</p>
+                        <p>{description}</p>
+                        <PostContent content={content} />
+                      </div>
+                    </div>
+                  </div>
+                </Wrapper>
+              </div>
+            </div>
+          </section>
+
+          <section class="text-gray-700 body-font mb-40">
           <div class="container px-5 pt-20 mx-auto">
             <div class="text-center mb-20">
               <span class="emoji-size">🤝</span>
@@ -148,28 +166,6 @@ export const BlogPostTemplate = ({
         </section>
       </section>
 
-
-      <section class="text-gray-700 body-font mb-40">
-      <div class="container px-5 pt-20 mx-auto">
-        <div>
-          <Wrapper> 
-            <div className="columns">
-              <div className="column is-10 is-offset-1">
-                <div class="mb-10">
-                  <h1 class="sm:text-3xl text-2xl font-medium title-font text-gray-900 mt-0">Information angående tävlingen</h1>
-                </div>
-                <div class="content">
-                  <p>{title}</p>
-                  <p>{description}</p>
-                  <PostContent content={content} />
-                </div>
-              </div>
-            </div>
-          </Wrapper>
-        </div>
-      </div>
-      </section>
-
       <section class="text-gray-700 py-24 body-font relative">
       <div class="absolute inset-0 bg-gray-300">
         <iframe width="100%" height="100%" frameborder="0" marginheight="0" marginwidth="0" title="map" scrolling="no" src="https://maps.google.com/maps?q=CrossFit%20S%C3%B6dert%C3%B6rn&t=&z=15&ie=UTF8&iwloc=&output=embed"></iframe>
@@ -185,7 +181,7 @@ export const BlogPostTemplate = ({
       </div>
     </section>
 
-      <section class="text-gray-700 body-font">
+      <section id="register" class="text-gray-700 body-font">
         <div class="container px-5 py-24 mx-auto">
           <div class="flex flex-col text-center w-full mb-12">
             <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Redo att tävla? 👊</h1>

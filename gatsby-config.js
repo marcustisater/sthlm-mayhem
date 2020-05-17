@@ -7,6 +7,7 @@ module.exports = {
   plugins: [
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sass',
+    'gatsby-plugin-anchor-links',
     {
       // keep as first gatsby-source-filesystem plugin for gatsby image support
       resolve: 'gatsby-source-filesystem',
@@ -59,6 +60,7 @@ module.exports = {
         ],
       },
     },
+    
     {
       resolve: `gatsby-plugin-prefetch-google-fonts`,
       options: {

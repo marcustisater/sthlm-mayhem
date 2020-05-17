@@ -27,7 +27,7 @@ export const IndexPageTemplate = ({
 }) => (
   <div>
       <Parallax
-      bgImage={'/img/home-front.jpg'}
+      bgImage={'/img/home-front.jpg'} 
       bgImageAlt="the cat"
       strength={250}
       className="full-width-image-container--front margin-top-0 full-width-image--left"
