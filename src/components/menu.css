@@ -284,3 +284,7 @@ h1,h2,h3,h4,h5 {
 .emoji-size {
     font-size: 5rem;
 }
+
+.navbar {
+    background: transparent !important;
+}
